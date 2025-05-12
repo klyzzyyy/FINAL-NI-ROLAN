@@ -16,13 +16,15 @@
   <div class="section navbar">
   <div class="navbar-left">
     <div class="logo">BloodStrike</div>
+    <div class="header-container">
     <div class="nav-links">
-      <a href="#">News</a>
-      <a href="#">Strikers</a>
-      <a href="#">Content Creator Program</a>
-      <a href="#">Combat Tutorial</a>
+      <a href="#news-section">News</a>
+      <a href="#strikers-section">Strikers</a>
+      <a href="#content-creator-section">Content Creator Program</a>
+      <a href="#combat-tutorial-section">Combat Tutorial</a>
       <a href="#">Game Features</a>
       <a href="#" class="purchase">Purchase</a>
+    </div>
     </div>
   </div>
 
@@ -78,8 +80,58 @@
     </div>
 </div>
 
-<div class="section second-container">
-  <h1 class="news-title">NEWS</h1>
+<div class="section second-container" id="news-section">
+  <div class="section navbar">
+    <div class="navbar-left">
+      <div class="logo">BloodStrike</div>
+      <div class="nav-links">
+        <a class="news-link" href="#news-section">News</a>
+        <a href="#strikers-section">Strikers</a>
+        <a href="#content-creator-section">Content Creator Program</a>
+        <a class="combat-tutorial-section" href="#combat-tutorial-section">Combat Tutorial</a>
+        <a href="#">Game Features</a>
+        <a href="#" class="purchase">Purchase</a>
+      </div>
+    </div>
+  
+    <!-- Combined right-side content including dropdowns and register button -->
+    <div class="navbar-right-group">
+      <div class="navbar-right">
+        <div class="language-selector">
+          <div class="language-toggle">
+            <i class="fas fa-globe globe-icon"></i>
+            <span class="lang-text">English</span>
+            <span class="caret">&#9660;</span> <!-- ▼ -->
+          </div>
+          <div class="language-menu" id="languageMenu">
+            <div class="lang-option">English</div>
+            <div class="lang-option">Português</div>
+            <div class="lang-option">Español</div>
+            <div class="lang-option">ไทย</div>
+            <div class="lang-option">Indonesian</div>
+            <div class="lang-option">العربية</div>
+            <div class="lang-option">Русский</div>
+            <div class="lang-option">繁體中文</div>
+            <div class="lang-option">Tiếng Việt</div>
+          </div>
+        </div>      
+        <div class="social-dropdown">
+          <div class="social-toggle">Social Media &#9660;</div>
+          <div class="social-menu">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="register-btn">Register</a>
+    </div>
+  </div>
+  <div class="news-container">
+  <div class="news-title">
+  </div>
   <div class="news-button">
     <div class="button-left">
     <button class="latest-button">LATEST</button>
@@ -90,43 +142,293 @@
       <button class="more-button">MORE</button>
     </div>
   </div>
-  <div class="news-content">
-    <div class="box1">
-      <div class="box1-image">
-        <img src="patch1.png" alt="" srcset="">
-      </div>
-      <div class="box1-content">
-        <h2>[Bloodstrike x Attack on Titan]</h2>
-        <p class="date">2025.04.10</p>
-        <p class="view">VIEW MORE</p>
-      </div>
-    </div>
-    <div class="box2">
-      <div class="box2-image">
-        <img src="patch2.png" alt="" srcset="">
-      </div>
-      <div class="box2-content">
-        <h2>[Bloodstrike x Attack on Titan]</h2>
-        <p class="date">2025.04.10</p>
-        <p class="view">VIEW MORE</p>
-      </div>
-    </div>
-    <div class="box3">
-      <div class="box3-image">
-        <img src="patch3.png" alt="" srcset="">
-      </div>
-      <div class="box3-content">
-        <h2>[Bloodstrike x Attack on Titan]</h2>
-        <p class="date">2025.04.10</p>
-        <p class="view">VIEW MORE</p>
+  </div>
+  <div class="slider-container">
+    <!-- Buttons OUTSIDE the slider-wrapper -->
+    <button class="nav prev">‹</button>
+  
+    <div class="slider-wrapper">
+      <div class="slider-track">
+        <div class="news-content">
+          <div class="box"> 
+            <div class="box-image"> 
+              <img src="patch1.png" alt="" srcset=""> 
+            </div> <div class="box-content"> 
+              <h2>[Bloodstrike x Attack on Titan]</h2> 
+              <div class="paragraph"> 
+                <p class="date">2025.04.10</p> 
+                <p class="view">VIEW MORE</p> 
+              </div> 
+            </div> 
+          </div> 
+          <div class="box"> 
+            <div class="box-image"> 
+              <img src="patch2.png" alt="" srcset=""> 
+            </div> <div class="box-content"> 
+              <h2>[Bloodstrike x Attack on Titan]</h2> 
+              <div class="paragraph"> 
+                <p class="date">2025.04.10</p> 
+                <p class="view">VIEW MORE</p> 
+              </div> 
+            </div> 
+          </div> 
+          <div class="box"> 
+            <div class="box-image"> 
+              <img src="patch3.png" alt="" srcset=""> 
+            </div> <div class="box-content"> 
+              <h2>[Bloodstrike x Attack on Titan]</h2> 
+              <div class="paragraph"> 
+                <p class="date">2025.04.10</p> 
+                <p class="view">VIEW MORE</p> 
+              </div> 
+            </div> 
+          </div> 
+          <div class="box"> 
+            <div class="box-image"> 
+              <img src="patch4.jpg" alt="" srcset=""> 
+            </div> 
+            <div class="box-content"> 
+              <h2>[Bloodstrike x Attack on Titan]</h2> 
+              <div class="paragraph"> 
+                <p class="date">2025.04.10</p> 
+                <p class="view">VIEW MORE</p> 
+              </div> 
+            </div> 
+          </div>
+        </div>
       </div>
     </div>
   </div>
+    <button class="nav next">›</button>
 </div>
+
+  <div class="section third-container" id="strikers-section">
+    <div class="section navbar">
+      <div class="navbar-left">
+        <div class="logo">BloodStrike</div>
+        <div class="nav-links">
+          <a class="news-link" href="#news-section">News</a>
+          <a class="strikers-link" href="#strikers-section">Strikers</a>
+          <a class="content-creator-link" href="#content-creator-section">Content Creator Program</a>
+          <a class="combat-tutorial-section" href="#combat-tutorial-section">Combat Tutorial</a>
+          <a href="#">Game Features</a>
+          <a href="#" class="purchase">Purchase</a>
+        </div>
+      </div>
+    
+      <!-- Combined right-side content including dropdowns and register button -->
+      <div class="navbar-right-group">
+        <div class="navbar-right">
+          <div class="language-selector">
+            <div class="language-toggle">
+              <i class="fas fa-globe globe-icon"></i>
+              <span class="lang-text">English</span>
+              <span class="caret">&#9660;</span> <!-- ▼ -->
+            </div>
+            <div class="language-menu" id="languageMenu">
+              <div class="lang-option">English</div>
+              <div class="lang-option">Português</div>
+              <div class="lang-option">Español</div>
+              <div class="lang-option">ไทย</div>
+              <div class="lang-option">Indonesian</div>
+              <div class="lang-option">العربية</div>
+              <div class="lang-option">Русский</div>
+              <div class="lang-option">繁體中文</div>
+              <div class="lang-option">Tiếng Việt</div>
+            </div>
+          </div>      
+          <div class="social-dropdown">
+            <div class="social-toggle">Social Media &#9660;</div>
+            <div class="social-menu">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <a href="#" class="register-btn">Register</a>
+      </div>
+      <div class="first-background"></div>
+      <div class="hero-img"></div>
+      <div class="skill-introduction">
+      <p style="color: #000000; font-size: 3rem;font-weight: bold;" 
+      class="animation1 on">SKILL INTRODUCTION</p>
+      </div>
+      <div class="first-skill">
+        <div class="skill-image">
+          <img src="https://www.blood-strike.com/pc/gw/20230718104343//img/skill/jn30_3d97600.png" alt="img">
+        </div>
+        <p class="p2">Phasing Arrow</p>
+      </div>
+      <div class="second-skill">
+        <div class="skill-image">
+          <img src="https://www.blood-strike.com/pc/gw/20230718104343//img/skill/jn23_50de7f3.png" alt="img">
+        </div>
+        <p class="p2">Scouting Arrow</p>
+      </div>
+
+      <div class="character-selector">
+        <button class="arrow up"></button>
+      
+        <div class="character-list">
+          <div class="character-thumb selected" style="background-image: url('1herochk.png');" data-id="1"></div>
+          <div class="character-thumb" style="background-image: url('your-image2.png');" data-id="2"></div>
+          <div class="character-thumb" style="background-image: url('your-image3.png');" data-id="3"></div>
+          <div class="character-thumb" style="background-image: url('your-image4.png');" data-id="4"></div>
+        </div>
+      
+        <button class="arrow down"></button>
+      </div>
+  </div>  
+  <div class="section fourth-container" id="content-creator-section">
+    <div class="section navbar">
+      <div class="navbar-left">
+        <div class="logo">BloodStrike</div>
+        <div class="nav-links">
+          <a class="news-link" href="#news-section">News</a>
+          <a class="strikers-link" href="#strikers-section">Strikers</a>
+          <a class="content-creator-link" href="#content-creator-section">Content Creator Program</a>
+          <a href="#">Combat Tutorial</a>
+          <a href="#">Game Features</a>
+          <a href="#" class="purchase">Purchase</a>
+        </div>
+      </div>
+    
+      <!-- Combined right-side content including dropdowns and register button -->
+      <div class="navbar-right-group">
+        <div class="navbar-right">
+          <div class="language-selector">
+            <div class="language-toggle">
+              <i class="fas fa-globe globe-icon"></i>
+              <span class="lang-text">English</span>
+              <span class="caret">&#9660;</span> <!-- ▼ -->
+            </div>
+            <div class="language-menu" id="languageMenu">
+              <div class="lang-option">English</div>
+              <div class="lang-option">Português</div>
+              <div class="lang-option">Español</div>
+              <div class="lang-option">ไทย</div>
+              <div class="lang-option">Indonesian</div>
+              <div class="lang-option">العربية</div>
+              <div class="lang-option">Русский</div>
+              <div class="lang-option">繁體中文</div>
+              <div class="lang-option">Tiếng Việt</div>
+            </div>
+          </div>      
+          <div class="social-dropdown">
+            <div class="social-toggle">Social Media &#9660;</div>
+            <div class="social-menu">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="register-btn">Register</a>
+      </div>
+    </div>
+    <div class="background-container">
+      <img src="clouds.jpg" class="bg-image clouds">
+      <img src="leftback.png" class="bg-image leftback">
+      <img src="rightback.png" class="bg-image rightback">
+      <img src="allhero.png" class="bg-image allhero">
+      <img src="allherotxt.png" class="bg-image allherotxt">
+    </div>    
+  </div>
+
+  <div class="section fifth-container" id="combat-tutorial-section">
+    <div class="section navbar">
+      <div class="navbar-left">
+        <div class="logo">BloodStrike</div>
+        <div class="header-container">
+        <div class="nav-links">
+          <a class="news-link" href="#news-section">News</a>
+          <a class="strikers-link" href="#strikers-section">Strikers</a>
+          <a class="content-creator-link" href="#content-creator-section">Content Creator Program</a>
+          <a class="combat-tutorial-section" href="#">Combat Tutorial</a>
+          <a href="#">Game Features</a>
+          <a href="#" class="purchase">Purchase</a>
+        </div>
+        </div>
+      </div>
+    
+      <!-- Combined right-side content including dropdowns and register button -->
+      <div class="navbar-right-group">
+        <div class="navbar-right">
+          <div class="language-selector">
+            <div class="language-toggle">
+              <i class="fas fa-globe globe-icon"></i>
+              <span class="lang-text">English</span>
+              <span class="caret">&#9660;</span> <!-- ▼ -->
+            </div>
+            <div class="language-menu" id="languageMenu">
+              <div class="lang-option">English</div>
+              <div class="lang-option">Português</div>
+              <div class="lang-option">Español</div>
+              <div class="lang-option">ไทย</div>
+              <div class="lang-option">Indonesian</div>
+              <div class="lang-option">العربية</div>
+              <div class="lang-option">Русский</div>
+              <div class="lang-option">繁體中文</div>
+              <div class="lang-option">Tiếng Việt</div>
+            </div>
+          </div>      
+          <div class="social-dropdown">
+            <div class="social-toggle">Social Media &#9660;</div>
+            <div class="social-menu">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="register-btn">Register</a>
+      </div>
+    </div>
+    <div class="section tutorial-style-container" id="new-section">
+      <!-- Side Backgrounds -->
+    
+      <!-- Title as Background Image -->
+      <div class="tutorial-title-img"></div>
+    
+      <!-- Tabs -->
+      <div class="tutorial-tabs">
+        <div class="tab active">Beginner</div>
+        <div class="tab">Advanced</div>
+        <div class="tab">Master</div>
+      </div>
+    
+      <!-- Grid Content -->
+      <div class="tutorial-grid">
+        <div class="tutorial-card">
+          <img src="img/sample1.jpg" alt="Special Movement" />
+          <p>Special Movements</p>
+        </div>
+        <div class="tutorial-card">
+          <img src="img/sample2.jpg" alt="Airdrop" />
+          <p>Airdrop</p>
+        </div>
+        <div class="tutorial-card">
+          <img src="img/sample3.jpg" alt="Parachute" />
+          <p>Parachute</p>
+        </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+    
+  </div>
+
 </div>
 </div>
 
-<script src="home.js"></script>
+<script src="home.js" defer></script>
 
 </body>
 </html>
